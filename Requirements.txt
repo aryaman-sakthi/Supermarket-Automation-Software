@@ -1,0 +1,56 @@
+
+R1:Scan 
+R2: Login_Employee
+i/p: employee id & password
+process: check and store details
+o/p: proceed to employ page
+
+R2 Login_Manager
+i/p: manager id & password
+process: check and store details
+o/p: proceed to manager page
+
+R1.1: Scan_Items
+ip: bar code, weight
+process: store and fetch details
+o/p: display name of the item,item type, code number, quantity, unit price, and item price.
+
+R1.2: Generate_Bill
+i/p: bill details
+process: calculate total amount, generate bill
+o/p: display bill and total amount
+
+R2.1:check item Inventory
+i/p: item code/name
+process: store and check details
+o/p: display invetory details
+
+R4: Maintain Inventory
+i/p: item code, new quantity
+process: update inventory detailso/p: display  updated inventory details 
+
+R5: Add new item
+I/p: item,item type, code number, quantity, unit price, and item price.
+Process: store new item details
+O/p :display new item details(inventory modified)
+
+R6: inspect inventory
+I/p: item type/ all items
+Process: fetch inventory details
+O/p: display inventory details
+
+R7:Update Price
+I/p: item code, updated price
+Process: update and store new price
+O/p:display updated item details
+
+
+R4.1:Decrement Inventory
+i/p: item quantity and code
+process: reduce total item quantity
+o/p: none
+
+R5: Sales Statistics
+i/p: date or time period
+process:
+
