@@ -8,9 +8,9 @@ Supermarket Automation Software (SAS) is designed to streamline and enhance the 
 
 ## Key Features:
 * **Sales Transactions:** Automates the billing process by reading barcodes and weighing items. Generates a detailed bill with serial number, item name, code, quantity, unit price, item price, and total amount payable.
-* Inventory Management: Tracks the stock of items in the supermarket, automatically updating inventory levels when items are sold. Allows employees to update inventory when new supplies arrive.
-* Sales Statistics: Provides detailed reports on the quantity of items sold, the revenue generated, and the profit for any given day or period.
-* Price Management: Enables the supermarket manager to update the prices of items as they fluctuate on a day-to-day basis.
+* **Inventory Management:** Tracks the stock of items in the supermarket, automatically updating inventory levels when items are sold. Allows employees to update inventory when new supplies arrive.
+* **Sales Statistics:** Provides detailed reports on the quantity of items sold, the revenue generated, and the profit for any given day or period.
+* **Price Management:** Enables the supermarket manager to update the prices of items as they fluctuate on a day-to-day basis.
 
 ## Use-Case Diagram:
 ![](https://github.com/aryaman-sakthi/Supermarket-Automation-Software/blob/main/screenshots/SAS-UseCase.png)
